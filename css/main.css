@@ -1,0 +1,46 @@
+.botao {
+  border-radius: 30px;
+  height: 45px;
+  width: 230px;
+  border: none;
+  text-transform: uppercase;
+}
+.botao.botao-branco {
+  background-color: var(--branco);
+  font-size: 12px;
+}
+
+.botao.botao-borda-verde {
+  border: 3px solid var(--vede--principal);
+  background-color: var(--branco);
+  color: var(--vede--principal);
+  font-size: 12px;
+}
+.botao.botao-borda-verde:hover {
+  background-color: var(--vede--principal);
+  color: var(--branco);
+  transition: 0.3s;
+}
+
+.botao.botao-borda-verde-claro {
+  border: 2px solid var(--verde--segundario);
+  background-color: var(--branco);
+  color: var(--vede--segundario);
+  font-size: 12px;
+}
+.botao.botao-borda-verde-claro:hover {
+  background-color: var(--vede--segundario);
+  color: var(--branco);
+  transition: 0.3s;
+}
+
+.botao.botao-borda-verde-degrade {
+  background: rgb(57, 181, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 181, 74, 1) 0%,
+    rgba(140, 198, 63, 1) 32%
+  );
+  color: var(--branco);
+  font-size: 12px;
+}
