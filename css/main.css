@@ -44,3 +44,39 @@
   color: var(--branco);
   font-size: 12px;
 }
+
+.fundo__verde {
+  height: auto;
+  background: #bbce00;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-around;
+
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+}
+
+.lista ul {
+  list-style-type: none;
+}
+.lista__borda {
+  border-right: 1px solid white;
+}
+
+.lista__item {
+  display: flex;
+}
+
+.lista__item--conteudo {
+  margin-top: 1rem;
+  color: white;
+}
+.lista__item--conteudo h3 {
+  margin: 0;
+}
